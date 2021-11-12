@@ -1,1 +1,1 @@
-Initial setup of remote repo
+Sandbox for learning how to be a full stack developer
