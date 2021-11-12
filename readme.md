@@ -1,6 +1,5 @@
-## Welcome to my Sandbox
-### I am learning how to be a Full Stack Developer
-___
+# Welcome to my Sandbox
+### My Journey to Becoming a Full Stack Developer
 1. ~~Set up Github~~
 2. Learn how to code
 3. Push the code
