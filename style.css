@@ -1,0 +1,149 @@
+html, body {
+ margin: 0;
+ height: 100%;
+}
+
+body {
+ background-color: rgba(190, 218, 226, 0.88);
+ color:black;
+}
+
+.banner{
+    background-color: rgba(190, 218, 226, 0.88);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner h1{
+    margin-left: 20px;
+}
+
+section {
+ background-color: #FFF;
+ border: 1px solid black;
+ padding: 10px;
+ margin: 10px auto;
+ position: relative;
+ top: 65px;
+}
+
+.color-container {
+    margin: 0 auto;
+    width: 450px;
+    display: block;
+    /*border: 1px solid red;*/
+}
+
+.color-swatch {
+    border: 1px solid #FFF;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 15px;
+}
+
+.color-swatch p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.green {
+    background-color: #8DC7B4;
+}
+
+.grey {
+    background-color: #9DA4B3;
+}
+
+.gold {
+    background-color: #B49F29;
+}
+
+.purple {
+    background-color: #8C71AF;
+}
+
+.font-container {
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+    /*border: 1px solid red;*/
+}
+
+.font-panel {
+    border: 1px solid rgb(201, 199, 199);
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.font-panel p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.font-label {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.helvetica {
+    font-family: helvetica;
+}
+
+.georgia{
+    font-family: georgia;
+}
+
+.roboto {
+    font-family: roboto;
+}
+
+.text-panel {
+    width: 300px;
+    margin: 10px auto;
+    border: 1px dotted lightgray;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: helvetica;
+    margin-left: 5px;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: roboto;
+    margin-left: 5px;
+}
+
+.text-panel p, li{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: georgia;
+    margin-left: 5px;
+}
+
+.buffer{
+    height:100px;
+}
