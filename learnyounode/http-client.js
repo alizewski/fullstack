@@ -6,7 +6,7 @@ Write a program that performs an HTTP GET request to a URL provided to you
 
 const http = require('http');
 
-urlInput = process.argv[2];
+let urlInput = process.argv[2];
 
 function streamCallback (response) {
     response.setEncoding('utf8');
@@ -17,7 +17,7 @@ function streamCallback (response) {
     response.on('error', (err) => {
         console.log(err);
     });
-    response.on('end', (data) => {
+    response.on('end', () => {
         return;
     });
 };
